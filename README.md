@@ -18,10 +18,12 @@ sudo ./meson_cdn config set --token=YOURTOKEN --https_port=443 --cache.size=20 &
 ```
 
 # Param List:
+```
 -token=your token              # you can find out your token in nodes page
 -https_port=443                # default is 443, support for custom server ports
 -cache.size=20                 # minimum: 20G, default: 30G
 -cache.folder=xxxx
+```
 
 # Start Service
 ```
